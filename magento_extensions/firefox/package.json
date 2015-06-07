@@ -1,0 +1,9 @@
+{
+  "name": "magento_whitepages_mozilla",
+  "title": "magento_whitepages_mozilla",
+  "id": "jid1-yKpsVFnjMMbXNAb",
+  "description": "This extension inserts a button on order pages to verify transaction data using Whitepages Pro",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.2"
+}

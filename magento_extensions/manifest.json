@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Whitepages Pro Identity Check for Magento",
+	"description": "Inserts an action button within Magento order pages, allowing users to verify billing and shipping info using Whitepages.",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "whitepages.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*/*/sales_order/view/order_id/*"],
+			"js": ["whitepages.js"]
+		}
+	]
+}
